@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f8f9f9;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            width: 365px;
+            height: 39px;
+            background: #111111;
+            border-radius: 30px;
+
+            margin: 130px auto;
+
+            display: flex;
+            align-items: center;
+
+            padding: 3px;
+
+            box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.35);
+        }
+
+        /* Logo */
+        .logo {
+            width: 31px;
+            height: 31px;
+            background: white;
+            border-radius: 70%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin-right: 13px;
+        }
+
+        .logo span {
+            font-size: 15px;
+            color: black;
+            transform: rotate(-25deg);
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex: 1;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 10px;
+            white-space: nowrap;
+        }
+
+        .menu a:hover {
+            opacity: 0.7;
+        }
+
+        .email {
+            background: white;
+            color: #111;
+
+            height: 31px;
+            padding: 0 13px;
+
+            border-radius: 20px;
+
+            display: flex;
+            align-items: center;
+
+            font-size: 10px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <span>◒</span>
+        </div>
+
+        <div class="menu">
+            <a href="#">Work</a>
+            <a href="#">About</a>
+            <a href="#">Playground</a>
+            <a href="#">Resource</a>
+        </div>
+
+        <div class="email">
+         ihyaet@gmail.com
+        </div>
+
+    </nav>
+
+</body>
+</html>
